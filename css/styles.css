@@ -3,9 +3,6 @@ body {
 	margin:0px;
 }
 
-div{
-	background: none;
-}
 
 /*header design*/
 
@@ -19,17 +16,9 @@ header{
   box-shadow: 0 5px 10px #aaa;
   -webkit-box-shadow: 0 5px 10px #aaa;
   -moz-box-shadow: 0 5px 10px #aaa;
-}
 
-header+ img{
-	margin:500px 0px 0px 100px;
 }
-header>section{
-	margin: 0 0;
-}
-
-
- 
+/*header "Name"*/
  header>section h1{
 	color: white;
 	float: right;
@@ -37,35 +26,49 @@ header>section{
 	font-family: 'Poller One', cursive;
 	font-size: 50px;
 	max-width: 0 0;	
-	border-left-style: solid;
-}
-header>section h3{
-	color: white;
-	float: right;
-	margin: 50px 0 0 0;
-}
-
-
- header>section p{
-	color: white;
-	float: right;
-}
-}
-
-/*article design*/
-article{
-	background: rgba(173, 173, 177, 0.43);
-
-}
-article img{
-	border-color: #1d9182;
-	border-radius: 100px;
-}
-
-/*Links*/
-#skill{
-
-	text-decoration: none;
+	border-right-style: solid;
+	padding:0 20px 20px 0;
 	
 }
+
+/*header Contact info*/
+.contact{
+	color: white;
+	float: left;
+	margin-left: 10px;
+}
+header>section h3{
+	margin: 35px 0 0 0;
+}
+
+
+/*article design*/
+.container{
+	background: rgba(88, 85, 85, 0.1);;
+}
+
+div img{
+	
+	border-radius: 100px;	
+}
+.work{
+	position: relative;
+	margin: 0 0 20px 17%;
+
+}
+
+.last{
+	border-top-style: double;
+}
+
+footer{
+	background: black;
+	min-width: 100%
+}
+footer p{
+	color: white;
+}
+/*Links*/
+
+	
 
