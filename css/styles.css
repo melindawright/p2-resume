@@ -45,6 +45,9 @@ header>section h3{
 /*article design*/
 .container{
 	background: rgba(88, 85, 85, 0.1);;
+	height:500px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
 }
 
 div img{
@@ -52,13 +55,21 @@ div img{
 	border-radius: 100px;	
 }
 .work{
+	
 	position: relative;
 	margin: 0 0 20px 17%;
+	font-size: 20px;
 
 }
 
+
 .last{
 	border-top-style: double;
+	margin-top: 15px;
+}
+h2,h3{
+	font-variant: small-caps;
+	font-family: 'Poller One', cursive;
 }
 
 footer{
