@@ -1,8 +1,71 @@
 body {
-	background: url("../img/bg.png");
+	background: url("../img/bg.jpg");
+	margin:0px;
 }
+
+div{
+	background: none;
+}
+
+/*header design*/
+
 
 header{
 	background: black;
+	float:left;
+		padding:15px 0;
+		min-width:100%;
+		 padding:25px;
+  box-shadow: 0 5px 10px #aaa;
+  -webkit-box-shadow: 0 5px 10px #aaa;
+  -moz-box-shadow: 0 5px 10px #aaa;
+}
+
+header+ img{
+	margin:500px 0px 0px 100px;
+}
+header>section{
+	margin: 0 0;
+}
+
+
+ 
+ header>section h1{
+	color: white;
+	float: right;
+	font-variant: small-caps;
+	font-family: 'Poller One', cursive;
+	font-size: 50px;
+	max-width: 0 0;	
+	border-left-style: solid;
+}
+header>section h3{
+	color: white;
+	float: right;
+	margin: 50px 0 0 0;
+}
+
+
+ header>section p{
+	color: white;
+	float: right;
+}
+}
+
+/*article design*/
+article{
+	background: rgba(173, 173, 177, 0.43);
 
 }
+article img{
+	border-color: #1d9182;
+	border-radius: 100px;
+}
+
+/*Links*/
+#skill{
+
+	text-decoration: none;
+	
+}
+
